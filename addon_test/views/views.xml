@@ -27,14 +27,14 @@
     <!-- menu categories -->
 
     <menuitem name="Menu 1" id="addon_test.menu_1" parent="addon_test.menu_root"/>
-    <menuitem name="Menu 2" id="addon_test.menu_2" parent="addon_test.menu_root"/>
+    <!--<menuitem name="Menu 2" id="addon_test.menu_2" parent="addon_test.menu_root"/>-->
 
     <!-- actions -->
 
     <menuitem name="List" id="addon_test.menu_1_list" parent="addon_test.menu_1"
               action="addon_test.action_window"/>
-    <menuitem name="List" id="addon_test.menu_2_list" parent="addon_test.menu_2"
-              action="addon_test.action_window"/>
+    <!--<menuitem name="List" id="addon_test.menu_2_list" parent="addon_test.menu_2"
+              action="addon_test.action_window"/>-->
 
   </data>
 </odoo>
